@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supplies</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="topNav" class="navigation">
+        <span id="closebtn" onclick="navToggle()">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </span>
+        <ul class="menulist">
+          <li><a class="menuitems" href="index.html">Home</a></li>
+          <li><a class="menuitems" href="supplies.html">Supplies</a></li>
+          <li>
+            <a class="menuitems" href="blog.html">Blog</a>
+          </li>
+          <li><a class="menuitems" href="about.html">About</a></li>
+          <li><a class="menuitems" href="FAQ.html">FAQ</a></li>
+          <li><a class="menuitems" href="contacto.html">Contact US</a></li>
+        </ul>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li class="caja0"><img src="img/Logo.jpg" alt="Logo" /></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="supplies.html">Supplies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contacto.html">Contact Us</a></li>
+        </ul>
+        <form class="search-form">
+          <input type="text" name="text" placeholder="Buscar" />
+          <button>Buscar</button>
+        </form>
+      </nav>
+      <script src="script.js"></script>
+    </header>
+      <section class="contenedor_total">
+        <h1>Cats Products</h1>
+        <div class="contenedor-products">
+          <div class="product-a">
+            <img src="https://picsum.photos/300/600/?random" />
+          </div>
+          <div class="product">
+            <img src="https://picsum.photos/600/300/?random" />
+          </div>
+          <div class="product-b">
+            <img src="https://picsum.photos/200/200/?random" />
+          </div>
+          <div class="product">
+            <img src="https://picsum.photos/200/500/?random" />
+          </div>
+          <div class="product-c">
+            <img src="https://picsum.photos/200/400/?random" />
+          </div>
+          <div class="product">
+            <img src="https://picsum.photos/200/250/?random" />
+          </div>
+          <div class="product">
+            <img src="https://picsum.photos/200/100/?random" />
+          </div>
+          <div class="product-d">
+            <img src="https://picsum.photos/200/600/?random" />
+          </div>
+      </section>
+
+
+      <h1 class="title">Cats Litters</h1>
+      <div>
+        <div class="product1">
+          <img src="product1.png" alt="Logo" />
+        </div>
+        <label for="size">Choose aSize</label>
+        <br />
+        <select name="size" id="size">
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+          <option value="XL">Extra Large</option>
+        </select>
+        <div>
+          <br />
+          <label for="addtocart">Add to Cart</label>
+          <input type="submit" id="addtocart" name="addtocart" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="title">Cats Treats</h1>
+      <div>
+        <div class="product2">
+          <img src="treats.jpg" alt="Logo" />
+        </div>
+        <br />
+        <label for="size">Size</label>
+        <select name="talle" id="talle">
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+          <option value="XL">Extra Large</option>
+        </select>
+        <div>
+          <br />
+          <label for="addtocart">Add to Cart</label>
+          <input type="submit" id="addtocart" name="addtocart" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h1 class="title">Cats Accesories</h1>
+      <div>
+        <div class="product3">
+          <img src="accesories.jpg" alt="Logo" />
+        </div>
+        <br />
+        <label for="size">Size</label>
+        <select name="talle" id="talle">
+          <option value="S">Small</option>
+          <option value="M">Medium</option>
+          <option value="L">Large</option>
+          <option value="XL">Extra Large</option>
+        </select>
+        <div>
+          <br />
+          <label for="addtocart">Add to Cart</label>
+          <input type="submit" id="addtocart" name="addtocart" />
+        </div>
+      </div>
+    </section>
+    <div id="root">
+      <div class="move">
+        <div class="cat-walking"></div>
+      </div>
+    </div>
+    <footer>
+      <h1 class="title">
+        © 2021 By Individuals contributors. Content is available under licenses.
+      </h1>
+    </footer>
+  </body>
+</html>
