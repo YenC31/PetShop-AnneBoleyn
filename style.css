@@ -22,6 +22,7 @@ body {
   height: auto;
   border-radius: 50%;
   margin-left: 10%;
+  margin-bottom: 10px;
 }
 
 .caja1 img {
@@ -107,6 +108,7 @@ h3 {
   justify-content: center;
   color: white;
   border-radius: 5px;
+  font-size: 26px;
 }
 h2 {
   color: #142b47;
@@ -483,4 +485,110 @@ h2 {
   to {
     margin-left: -120%;
   }
+}
+
+/*FOOTER*/
+
+footer {
+  background: #f25a37;
+  color: white;
+  margin-top: 0px;
+}
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer a:hover {
+  color: #142b47;
+  text-decoration: none;
+}
+.copy {
+  font-size: 12px;
+  border-top: 1px solid #ffffff;
+  background-color: none;
+}
+.footer-middle {
+  padding-top: 1em;
+  color: white;
+}
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+.social-network a.icoInstagram:hover {
+  background-color: #f56040;
+}
+.social-network a.icoYouTube:hover {
+  background-color: red;
+}
+.social-network a.icoFacebook:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoYouTube:hover i {
+  color: #fff;
+}
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.social-network a {
+  background-color: #f9f9f9;
+}
+
+.row p {
+  margin-top: 10px;
+  color: white;
+}
+.text-center {
+  background: #f25a37;
 }
