@@ -22,6 +22,7 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="scss/supplies.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -60,98 +61,95 @@
       </nav>
       <script src="script.js"></script>
     </header>
-      <section class="contenedor_total">
-        <h1>Cats Products</h1>
-        <div class="contenedor-products">
-          <div class="product-a">
-            <img src="https://picsum.photos/300/600/?random" />
-          </div>
-          <div class="product">
-            <img src="https://picsum.photos/600/300/?random" />
-          </div>
-          <div class="product-b">
-            <img src="https://picsum.photos/200/200/?random" />
-          </div>
-          <div class="product">
-            <img src="https://picsum.photos/200/500/?random" />
-          </div>
-          <div class="product-c">
-            <img src="https://picsum.photos/200/400/?random" />
-          </div>
-          <div class="product">
-            <img src="https://picsum.photos/200/250/?random" />
-          </div>
-          <div class="product">
-            <img src="https://picsum.photos/200/100/?random" />
-          </div>
-          <div class="product-d">
-            <img src="https://picsum.photos/200/600/?random" />
-          </div>
-      </section>
-
-
-      <h1 class="title">Cats Litters</h1>
-      <div>
-        <div class="product1">
-          <img src="img/product1.png" alt="Logo" />
-        </div>
-        <label for="size">Choose aSize</label>
-        <br />
-        <select name="size" id="size">
-          <option value="S">Small</option>
-          <option value="M">Medium</option>
-          <option value="L">Large</option>
-          <option value="XL">Extra Large</option>
-        </select>
-        <div>
-          <br />
-          <label for="addtocart">Add to Cart</label>
-          <input type="submit" id="addtocart" name="addtocart" />
-        </div>
+    <h1>Our History</h1>
+    <div class="block__supplies__total">
+      <div class="block__supplies__products">
+        <figure
+          class="card card--3"
+          style="
+            --image-src: url('https://media.istockphoto.com/photos/cat-litter-box-picture-id1061894902?k=20&m=1061894902&s=612x612&w=0&h=Lxw0RAyesDLo37dI7QZ3d6STfT0_5oU2DqEMKbKPmOQ=');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>Cat Litters</h5>
+              <span>by David Marcu</span>
+              <button class="btn">Buy</button>
+            </span>
+          </figcaption>
+        </figure>
+        <figure
+          class="card card--4"
+          style="
+            --image-src: url('https://cdn.pixabay.com/photo/2016/09/01/18/37/black-cat-1636980_960_720.jpg');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>SmartyKat Scratch Up Hanging Cat</h5>
+              <span>by Jay Mantri</span>
+              <button class="btn">Buy</button>
+            </span>
+          </figcaption>
+        </figure>
+        <figure
+          class="card card--3"
+          style="
+            --image-src: url('https://cdn.pixabay.com/photo/2020/10/29/00/35/cat-5694895_960_720.jpg');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>Cat Trees</h5>
+              <span>by Keith Hardy</span>
+              <button class="btn">Buy</button>
+            </span>
+          </figcaption>
+        </figure>
+        <figure
+          class="card card--4"
+          style="
+            --image-src: url('https://media.istockphoto.com/photos/tabby-cat-looking-curious-out-of-a-backpack-carrier-next-to-a-bag-picture-id1146836106?k=20&m=1146836106&s=612x612&w=0&h=m1sZsre1hWHjsqxzGhwclwQe_Sb0TbszkG-gOYdHc3o=');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>Cat Transportation</h5>
+              <span>by Dan Stark</span>
+              <button class="btn">Buy</button>
+            </span>
+          </figcaption>
+        </figure>
+        <figure
+          class="card card--3"
+          style="
+            --image-src: url('https://cdn.pixabay.com/photo/2017/03/24/08/24/cat-2170494_960_720.jpg');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>Treats and Food for Cats</h5>
+              <span>by Keith Hardy</span>
+              <button class="btn">More Info</button>
+            </span>
+          </figcaption>
+        </figure>
+        <figure
+          class="card card--4"
+          style="
+            --image-src: url('https://cdn.pixabay.com/photo/2020/01/27/12/24/cat-4797096_960_720.jpg');
+          "
+        >
+          <figcaption>
+            <span class="info">
+              <h5>Toys for Cats</h5>
+              <span>by Dan Stark</span>
+              <button class="btn">More Info</button>
+            </span>
+          </figcaption>
+        </figure>
       </div>
-    </section>
-    <section>
-      <h1 class="title">Cats Treats</h1>
-      <div>
-        <div class="product2">
-          <img src="img/treats.jpg" alt="Logo" />
-        </div>
-        <br />
-        <label for="size">Size</label>
-        <select name="talle" id="talle">
-          <option value="S">Small</option>
-          <option value="M">Medium</option>
-          <option value="L">Large</option>
-          <option value="XL">Extra Large</option>
-        </select>
-        <div>
-          <br />
-          <label for="addtocart">Add to Cart</label>
-          <input type="submit" id="addtocart" name="addtocart" />
-        </div>
-      </div>
-    </section>
-    <section>
-      <h1 class="title">Cats Accesories</h1>
-      <div>
-        <div class="product3">
-          <img src="img/accesories.jpg" alt="Logo" />
-        </div>
-        <br />
-        <label for="size">Size</label>
-        <select name="talle" id="talle">
-          <option value="S">Small</option>
-          <option value="M">Medium</option>
-          <option value="L">Large</option>
-          <option value="XL">Extra Large</option>
-        </select>
-        <div>
-          <br />
-          <label for="addtocart">Add to Cart</label>
-          <input type="submit" id="addtocart" name="addtocart" />
-        </div>
-      </div>
-    </section>
+    </div>
     <div id="root">
       <div class="move">
         <div class="cat-walking"></div>
@@ -212,7 +210,8 @@
           <div class="row">
             <div class="col-md-12 copy">
               <p class="text-center">
-                &copy; 2021 By Individuals contributors. Content is available under licenses.
+                &copy; 2021 By Individuals contributors. Content is available
+                under licenses.
               </p>
             </div>
           </div>

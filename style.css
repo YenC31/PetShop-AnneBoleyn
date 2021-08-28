@@ -241,7 +241,7 @@ h2 {
 
 /*Botón Productos*/
 .button {
-  background-color: #f25a37;
+  background: #f25a37;
   margin-top: 8px;
   border: none;
   color: white;
@@ -257,6 +257,11 @@ h2 {
   margin-left: 33%;
   margin-bottom: 10px;
 }
+.button:hover {
+  background: #f56040;
+  background: linear-gradient(0deg, #a85643 0%, #f56040 100%);
+}
+
 .contenedor_total {
   display: grid;
 }
@@ -347,7 +352,22 @@ h2 {
 
 .about-textblock {
   grid-area: -3 / -4 / span 2 / span 2;
-  background-color: white;
+  background-color: #f25a37;
+}
+
+.about-textblock h2 {
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.about-textblock p {
+  background-color: #f25a37;
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .navigation {
@@ -609,7 +629,7 @@ ul.social-network li {
 .text-center {
   background: #f25a37;
 }
-/*Carrucel*/
+/*Carrusel*/
 .container_carousel {
   width: 100%;
   padding-right: 15px;
