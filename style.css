@@ -74,6 +74,7 @@ body {
   width: 100%;
 }
 .read_history p {
+  width: 100%;
   text-align: center;
 }
 
@@ -95,8 +96,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   border-radius: 5px;
-  margin-left: 1%;
-  margin-right: 1%;
 }
 
 .title {
