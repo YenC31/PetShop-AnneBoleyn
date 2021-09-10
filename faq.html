@@ -15,13 +15,18 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="scss/faq.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -60,38 +65,74 @@
       </nav>
       <script src="script.js"></script>
     </header>
-    <a href="index.html">Volver</a>
-    <h1 class="title">FAQ</h1>
-    <section>
-      <li class="list">
-        When will my order ship?
-        <p class="parrafo">
-          Please allow for 2-3 weeks of processing. Our team is working very
-          hard to get your order to you as fast as possible. You'll receive a
-          shipping confirmation with your tracking number when the order has
-          shipped.
-        </p>
-      </li>
-      <li class="list">
-        I ordered the wrong size item, what should I do? ​
-        <p class="parrafo">
-          If your order has not been shipped yet, please contact
-          worgsize@xxxmerch.com as soon as possible and describe your situation.
-          Don't forget to include your order number and the size you are
-          requesting. If you've already received your package, you can make
-          exchanges and returns for up to 21 days after you've received the
-          item. Please email hello@avidmerch.com to start your exchange process.
-        </p>
-      </li>
-      <li class="list">
-        How can I change my shipping address?
-        <p class="parrafo">
-          Send an email over to hello@avidmerch.com to change your shipping
-          address. As long as we have not shipped your order, you have time to
-          change it.
-        </p>
-      </li>
-    </section>
+<!-- Bootstrap FAQ - START -->
+<div class="container">
+  <div class="alert alert-warning alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <a>This section contains a wealth of information related to this store. If you cannot find an answer to your question,
+      make sure to contact us.
+    </a>
+  </div>
+  <br />
+  <div class="panel-group" id="accordion">
+      <div class="faqHeader">General questions</div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                    When will my order ship?</a>
+              </h4>
+          </div>
+          <div id="collapseTen" class="panel-collapse collapse">
+              <div class="panel-body">
+                Please allow for 2-3 weeks of processing. Our team is working very hard to get your order to you as fast as possible. You'll receive a shipping confirmation with your tracking number when the order has shipped.
+              </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+                    I ordered the wrong size item, what should I do? ​</a>
+              </h4>
+          </div>
+          <div id="collapseEleven" class="panel-collapse collapse">
+              <div class="panel-body">
+                If your order has not been shipped yet, please contact worgsize@xxxmerch.com as soon as possible and describe your situation. Don't forget to include your order number and the size you are requesting. If you've already received your package, you can make exchanges and returns for up to 21 days after you've received the item. Please email hello@avidmerch.com to start your exchange process.
+              </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    How can I change my shipping address? </a>
+              </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse">
+              <div class="panel-body">
+                Send an email over to hello@avidmerch.com to change your shipping address. As long as we have not shipped your order, you have time to change it.
+              </div>
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                    Can I place an order over the phone?</a>
+              </h4>
+          </div>
+          <div id="collapseSeven" class="panel-collapse collapse">
+              <div class="panel-body">
+                Yes, if you wish to make an order over the phone simply call us on +54 XX XXXXXXXX and we'll happily place your order for you, as well as answering any questions that you may have.
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Bootstrap FAQ - END -->
+</div>
+
     <div id="root">
       <div class="move">
         <div class="cat-walking"></div>
@@ -149,7 +190,7 @@
               </ul>
             </div>
           </div>
-          <div class="row">
+          <div class="row_footer">
             <div class="col-md-12 copy">
               <p class="text-center">
                 &copy; 2021 By Individuals contributors. Content is available
