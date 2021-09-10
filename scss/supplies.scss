@@ -117,7 +117,7 @@ figure.card {
     }
   }
 }
-.btn {
+.btn_suppli {
   cursor: pointer;
   margin-top: 7.5rem;
   padding: 0.75rem 1.5rem;
@@ -131,10 +131,10 @@ figure.card {
   font-family: $font-family;
   margin-left: 15px;
 }
-.btn:hover {
+.btn_suppli:hover {
   background-color: $white--color;
 }
-.btn:focus {
+.btn_suppli:focus {
   outline: 1px dashed $yellow--color;
   outline-offset: 3px;
 }
