@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Estilos, librerias y extensiones -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--SEO -->
+    <meta
+      name="description"
+      content="All the products you need for you Ragdoll Cat. Ragdoll cats are known to be a great pet for kids and all type of owners. They show a almost dog-like devotion to their owners."
+    />
+    <meta
+      name="keywords"
+      content="RAGDOLL CATS, BEHAVIOUR, PETS FOR KIDS, PETS, DOG LIKE CAT, TOYS FOR CATS, LITTER, CAT TREES"
+    />
+    <title>Anne Boleyn Cat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Menu  -->
+    <header class="header">
+      <div id="topNav" class="navigation">
+        <span id="closebtn" onclick="navToggle()">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </span>
+        <ul class="menulist">
+          <li><a class="menuitems" href="index.html">Home</a></li>
+          <li><a class="menuitems" href="supplies.html">Supplies</a></li>
+          <li>
+            <a class="menuitems" href="blog.html">Blog</a>
+          </li>
+          <li><a class="menuitems" href="about.html">About</a></li>
+          <li><a class="menuitems" href="FAQ.html">FAQ</a></li>
+          <li><a class="menuitems" href="contacto.html">Contact US</a></li>
+        </ul>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li class="caja0"><img src="img/Logo.jpg" alt="Logo" /></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="supplies.html">Supplies</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contacto.html">Contact Us</a></li>
+        </ul>
+        <form class="search-form">
+          <input type="text" name="text" placeholder="Buscar" />
+          <button>Buscar</button>
+        </form>
+      </nav>
+      <script src="script.js"></script>
+    </header>
+    <!-- Banner  -->
+    <div class="hero">
+      <img src="img/banner2.jfif" alt="Banner" />
+    </div>
+    <!-- Formulario de Contacto  -->
+    <div class="bodyForm">
+      <form class="my-form">
+        <div class="container_form">
+          <h1>Get in touch!</h1>
+          <ul>
+            <li>
+              <select>
+                <option selected disabled>-- Please choose an option --</option>
+                <option>Request Quote</option>
+                <option>Send Review</option>
+                <option>Other</option>
+              </select>
+            </li>
+            <li>
+              <div class="grid grid-2">
+                <input type="text" placeholder="Name" required />
+                <input type="text" placeholder="Surname" required />
+              </div>
+            </li>
+            <li>
+              <div class="grid grid-2">
+                <input type="email" placeholder="Email" required />
+                <input type="tel" placeholder="Phone" />
+              </div>
+            </li>
+            <li>
+              <textarea placeholder="Message"></textarea>
+            </li>
+            <li>
+              <div class="grid grid-3">
+                <div class="required-msg">REQUIRED FIELDS</div>
+                <button class="btn-grid" type="submit" enabled>
+                  <span class="back">
+                    <img
+                      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span class="front">SUBMIT</span>
+                </button>
+                <button class="btn-grid" type="reset" enabled>
+                  <span class="back">
+                    <img
+                      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span class="front">RESET</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+    <!-- Cat animation  -->
+    <div id="root">
+      <div class="move">
+        <div
+          class="cat-walking"
+          style="background: url(img/cat_tiles.png)"
+        ></div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <footer class="mainfooter" role="contentinfo">
+      <div class="footer-middle">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-pad">
+                <h4>Products</h4>
+                <ul class="list-unstyled">
+                  <li><a href="supplies.html">Supplies</a></li>
+                  <li><a href="about.html">Gallery</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-pad">
+                <h4>Anne Boleyn</h4>
+                <ul class="list-unstyled">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-pad">
+                <h4>Contact Us</h4>
+                <ul class="list-unstyled">
+                  <li><a href="contacto.html">Contact</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h4>Follow Us</h4>
+              <ul class="social-network social-circle">
+                <li>
+                  <a href="#" class="icoFacebook" title="Facebook"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoInstagram" title="Instagram"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" class="icoYouTube" title="YouTube"
+                    ><i class="fa fa-youtube"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row_footer">
+            <div class="col-md-12 copy">
+              <p class="text-center">
+                &copy; 2021 By Individuals contributors. Content is available
+                under licenses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
